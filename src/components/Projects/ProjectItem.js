@@ -8,7 +8,7 @@ import { truncateText } from '@util/truncateText.util'
 export default function ProjectItem() {
 
     let a = projects[1].desc
-    console.log(a.length)
+
     return (
         <div className="grid gap-6 row-gap-5 lg:grid-cols-2"  >
             {projects.map((project, index) =>

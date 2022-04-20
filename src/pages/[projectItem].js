@@ -11,7 +11,7 @@ const SingleProject = ({ project }) => {
         (myProject) => myProject.name === projectItem
     );
     const stack = currentProjectInView?.[0]?.stack
-    console.log(stack)
+
     return (
         <section className="py-20 font-sans">
             <div className="container px-4 mx-auto mb-16">
