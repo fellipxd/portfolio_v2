@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import ProjectItem from './ProjectItem'
+import ProjectItem from '@components/Projects/ProjectItem'
 
 
 export default function Projects() {
