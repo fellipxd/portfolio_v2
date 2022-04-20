@@ -26,7 +26,7 @@ export default function Nav() {
 
                 <ul className={click ? 'active' : 'navMenu'}>
                     <li onClick={handleToggle} className='li'>
-                        <Link className="link" href="/#home" >Home</Link>
+                        <Link className="link" href="/" >Home</Link>
                     </li>
                     <li onClick={handleToggle} className='li'>
                         <Link className="link" href="/#about" >About</Link>

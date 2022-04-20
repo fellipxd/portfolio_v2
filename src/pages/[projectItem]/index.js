@@ -14,6 +14,9 @@ const SingleProject = ({ project }) => {
 
     return (
         <section className="py-20 font-sans">
+            <div>
+                <i onClick={() => router.back()} className='fas fa-backward absolute top-10  text-3xl lg:text-4xl'></i>
+            </div>
             <div className="container px-4 mx-auto mb-16">
                 <div className="max-w-xl lg:max-w-2xl mx-auto text-center">
                     <h2 className="mb-6 text-3xl leading-tight md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight font-bold font-heading text-mantis-700">
@@ -42,6 +45,11 @@ const SingleProject = ({ project }) => {
                         {currentProjectInView?.[0]?.desc || ""}
                     </p>
 
+
+
+
+
+
                     {currentProjectInView?.[0]?.stack ? <StackList stack={stack} /> : ""}
                 </div>
                 <div className='flex items-center justify-center'> <a href={currentProjectInView?.[0]?.site} target="blank"><button className='border border-2 rounded-lg border-mantis-100 text-mantis-100 p-4 hover:bg-mantis-100 hover:text-white hover:transition-colors hover:duration-500 hover:ease ease duration-500'>View Project</button></a></div>
@@ -49,7 +57,7 @@ const SingleProject = ({ project }) => {
 
             </div>
 
-        </section>
+        </section >
     )
 }
 

@@ -8,7 +8,7 @@ module.exports = {
       height: {
         max: "max-content",
         half: "90vh",
-        quart: "60vh",
+        quart: "65vh",
         view: "58%"
       },
 
@@ -16,17 +16,17 @@ module.exports = {
         mantis: {
           DEFAULT: "#414189",
           50: "#1E1E1E",
-          100:"#BCB4a1",
-          150:"#262655"
-          
+          100: "#BCB4a1",
+          150: "#262655"
+
         },
       },
 
       borderRadius: {
         circle: "150%",
-      
+
       }
-      
+
     },
   },
   plugins: [],

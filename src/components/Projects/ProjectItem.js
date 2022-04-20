@@ -23,7 +23,7 @@ export default function ProjectItem() {
                         />
                     </div>
                     {/* </Link> */}
-                    <div className='py-4 px-8 relative h-2/5 '>
+                    <div className=' p-4  lg:p-8  relative h-2/5 '>
                         <Link href={`/${project.name}`} passHref rel="noreferrer" >
                             <h5 className="-mb-8 text-xl  font-bold leading-none sm:text-2xl text-mantis-500 hover:text-mantis-700  cursor-pointer">
                                 {project?.name || ""}

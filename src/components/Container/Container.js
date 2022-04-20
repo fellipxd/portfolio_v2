@@ -5,12 +5,12 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const Container = ({ children, ...customMeta }) => {
   const router = useRouter();
-  
+
 
   const meta = {
     title:
       "Philip",
-    description: `Frontend Developer portfolio`,
+    description: `Philip Okedi's Frontend Developer portfolio`,
     image: "",
     type: "website",
     ...customMeta,
@@ -24,7 +24,7 @@ const Container = ({ children, ...customMeta }) => {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-      
+
         {/* <meta
           property="og:url"
           content={``}
@@ -115,7 +115,7 @@ const Container = ({ children, ...customMeta }) => {
           exit="pageExit"
         >
           <main>{children}</main>
-          
+
         </motion.div>
       </AnimatePresence>
     </>
