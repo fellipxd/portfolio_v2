@@ -7,7 +7,6 @@ import { truncateText } from '@util/truncateText.util'
 
 export default function ProjectItem() {
 
-    let a = projects[1].desc
 
     return (
         <div className="grid gap-6 row-gap-5 lg:grid-cols-2"  >
